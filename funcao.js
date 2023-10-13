@@ -13,3 +13,18 @@ function enviarDados()
         console.log("senha validada");
     }
 }
+
+function somar(a, b)
+{
+    let soma = a + b;
+    console.log(soma);
+    return (soma);
+}
+
+function getFirstName(name)
+{
+    let firstName = name.split(" ")[0];
+    console.log(firstName);
+}
+
+getFirstName("yago fellipe")
